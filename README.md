@@ -8,18 +8,24 @@ Some cleanup tools are implemented to correct common formatting errors.
 Dependencies:
 
 Python 3.0 or later plus standard library
+
 Pydrive (pip install pydrive)
+
 Presence of client_secrets.json and xmlDocs/ in execution folder. 
 
 Command Line + Arguments:
 
-Python CreateXML countryFile #When a single argument is present the script interprets that argument as the name of a file with the following format: 
-  Each line of that file specifies the root name of a country and the drive folder ID where the content lives. For example, the line "england,0B30rCerFhcqTVlN0Z1FEWTlRQlE" would specify the creation of an XML document with root node "england" with the content from https://drive.google.com/drive/folders/0B30rCerFhcqTVlN0Z1FEWTlRQlE
+Python CreateXML countryFile 
+
+When a single argument is present the script interprets that argument as the name of a file with the following format
+Each line of that file specifies the root name of a country and the drive folder ID where the content lives. For example, the line "england,0B30rCerFhcqTVlN0Z1FEWTlRQlE" would specify the creation of an XML document with root node "england" with the content from https://drive.google.com/drive/folders/0B30rCerFhcqTVlN0Z1FEWTlRQlE
 Each entry should be on it's own line with no spaces. For an example, see countries.csv
 
 or
 
-Python CreateXML countryName folderID #Creates an XML document with root name countryName and content from the drive folder with ID folderID
+Python CreateXML countryName folderID 
+
+Creates an XML document with root name countryName and content from the drive folder with ID folderID
 
 High-level description:
 
