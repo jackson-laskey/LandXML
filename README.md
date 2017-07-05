@@ -5,6 +5,8 @@ Overview:
 Create an XML document(s) from specified google docs for use in the Land app. Google docs must follow the format specified below. 
 Some cleanup tools are implemented to correct common formatting errors. 
 
+*****
+
 Dependencies:
 
 Python 3.0 or later plus standard library
@@ -12,6 +14,8 @@ Python 3.0 or later plus standard library
 Pydrive (pip install pydrive)
 
 Presence of client_secrets.json and xmlDocs/ in execution folder. 
+
+*****
 
 Command Line + Arguments:
 
@@ -27,11 +31,15 @@ Python CreateXML countryName folderID
 
 Creates an XML document with root name countryName and content from the drive folder with ID folderID
 
+*****
+
 High-level description:
 
 The file CreateXML.py is the only file that needs to be executed. First, a connection to google drive is made through the PyDrive library.
 This connection is dependent on the client_secrets.json file being present in the CD and the current browser user having access to the
 folders specified in the arguments. For each specified country/folderID pair, all of the files in the specified folder will be downloaded and their contents will be stored as the value in dictionary with the file number as the key. That file number will be specified at the beginning of the filename in drive. Once the files are downloaded, their contents will be iterated on by key and will be added to the XML document in the LAND format. Before the complete XML doc is output, the string is "prettified" to make the content more human-readable.
+
+*****
 
 Google Doc Formatting:
 
