@@ -35,6 +35,7 @@ def createXML(gDrive, country, folderId):
         c = file_list[f]
         if(c!=None):
           navigation = SubElement(top, 'Navigation')
+          c = c.replace("\n \n","\n\n") #removes single space character from newline
           y = c.split("\n\n\n\n")
           i = 0
           print(len(y))
@@ -46,7 +47,7 @@ def createXML(gDrive, country, folderId):
               navTitle.text = item
             elif i==1:
               icon = SubElement(navigation, 'Navigation_Icon')
-              icon.text = item
+              icon.text = item.lower().replace(" ","") #navigation icon text gets lower case version of string
             elif i%2==0:
               child = SubElement(navigation, 'Details_Item')
               title = SubElement(child, 'Item_Title')
