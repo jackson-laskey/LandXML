@@ -52,22 +52,22 @@ Item title, Item description, Item title, Item description... Keep in mind that 
 
 <h2>Example Document</h2>
 
-File name: 6 - Trust Us, It's SIM(ple): Find The Right Plan For you
+File name: 6 - Trust Us, It's SIM(ple): Find The Right Plan For you #This is the drive file name, not included in the document text
 
 Trust Us, It's SIM(ple): Find The Right Plan For you
 
-
+<br>
 phoneicon.png
 
-
+<br>
 *Disclaimer: the following information can only be applied to an unlocked phone. If you don’t have one we highly recommend calling your phone company to unlock it before your trip :)*
 
 You couldn’t be in a better country for cheap, convenient, accessible, no-strings-attached sim card deals. In all my years of living abroad and wrestling with foreign phone companies, I can categorically say that Britain is the king for this stuff. Here’s a breakdown: 
 
-
+<br>
 Best Sim for the City Hopper and Dweller: GiffGaff
 
-
+<br>
 For those who don’t need rural reception and want to take advantage of the best phone deal, then look no further than Giffgaff. Giffgaff offer fantastic 30 day rolling sim only deals and the best rates for 4G data and minutes in the UK. They don’t believe in long-term phone contracts so offer flexible, no-strings, ‘cancel when you want’ sims. Here’s how the prices break down: 
 
 £5 Goodybag  -  100 mb data, 150 minutes and 500 texts
@@ -78,17 +78,17 @@ For those who don’t need rural reception and want to take advantage of the bes
 £18 Goodybag - 6 GB data, 2000 minutes and unlimited texts
 £20 Goodybag - Unlimited data, unlimited minutes and unlimited texts. 
 
-
+<br>
 How To Top Up on GiffGaff
 
-
+<br>
 Go to the Giffgaff website and select your favoured plan. A free sim will be posted to you (takes 3-5 days in Britain, 5 days in Europe). You’ll need to create an account and register your new sim once it arrives - a process with which you’ll be guided through. Then all you need to do is top up online and then purchase the Goodybag. If you go over your allowance you’ll be charged at the standard pay-as-you-go rates so watch out. 
 When you want to cancel, simply log in to your online account and cancel. You’ll then be refunded any remaining credit on your account. Pretty simple really. 
 
-
+<br>
 Best Sim Company for the UK Rural Traveler: EE
 
-
+<br>
 EE are comprised of both Orange and T-mobile networks and have the best coverage in the UK with very little black spots. They offer a ‘pay as you go’ sim card but with the opportunity to buy ‘packs’ of data and minutes with your credit. The sim card is free with the packs lasting 30 days at a time. Considering the extensive coverage, they’re really good value for money and my chosen provider. Once you top up you will be offered the opportunity to purchase either a: 
 
 £5 Everything Pack - 150 mb data, 250 texts and 50 minutes 
@@ -100,16 +100,16 @@ EE are comprised of both Orange and T-mobile networks and have the best coverage
 
 If you’re needing a sim card for a week or extended stay in the UK then this is your company. Although some companies will offer slightly cheaper deals on pay as you go ‘all data packs’, EE has the best 3G and 4G coverage in the UK.
 
-
+<br>
 How to Top Up on EE
 
-
+<br>
 Topping up can either be done online, in store, or through your phone. You’ll find EE stores on every main street in the cities here (two on Princes Street if you’re in Edinburgh, three in Glasgow with one on Buchanan Street). The online process is very simple - once you’ve purchased a sim, you’ll be prompted to create an online account through their website. Here you’ll find instructions to top up. If you need to do it through your phone, EE provide you with internet to access their website to then top up remotely. 
 
- 
+<br>
 Best Sim Cards for European travel with a UK Provider: 3 Mobile
 
-
+<br>
 3’s ‘pay as you go’ rates are good, but their European rates are even better. Go with the ‘Feel At Home Plan’ and you’ll be able to travel 40+ countries at the same UK ‘Pay As You Go’ rate when calling/texting back to the UK. Europe, China, America and Australia included. They’ve figured out that they save UK customers an average of $270 in roaming charges through their low cost ‘add-on’ packs. It’s also free to receive calls and texts in all their ‘Feel At Home’ locations. Here is a strong disclaimer however  - the packs only provide the UK rates when calling/texting back to the UK, not to international numbers or the ones local to you outwith of the UK.  However, the data allowances as part of the ‘feel at home’ pack obviously remain the same as you travel between countries which make it such a good deal considering many of us call/text using online apps such as Whatsapp and Skype. 
 The process of purchasing and topping up is similar to that of EE’s - you buy a sim card either in-store or online, create your account (My3), top up using one of the three methods (in store, online, by phone (call 444 from your sim), and then purchase the add-ons that are available to you through your new ‘my3’ account (If you don’t have a smartphone, you can continue to buy an add on by phone using the 444 number). 
 Three has vastly improved as a company with a huge boost to their network coverage recently. I have had good experiences with their international coverage and have heard good reviews with more remote locations too. 
