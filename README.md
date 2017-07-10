@@ -1,13 +1,13 @@
 # LandXML
 
-Overview:
+<h1>Overview<h1>
 
 Create an XML document(s) from specified google docs for use in the Land app. Google docs must follow the format specified below. 
 Some cleanup tools are implemented to correct common formatting errors. 
 
 *****
 
-Dependencies:
+<h1>Dependencies<h1>
 
 Python 3.0 or later plus standard library
 
@@ -17,23 +17,26 @@ Presence of client_secrets.json and xmlDocs/ in execution folder.
 
 *****
 
-Command Line + Arguments:
+<h1>Executing via Command Line<h1>
+
+There are two options for executing this program by command line.
+
+<h2>Option 1<h2>
 
 Python CreateXML countryFile 
 
 When a single argument is present the script interprets that argument as the name of a file with the following format
-Each line of that file specifies the root name of a country and the drive folder ID where the content lives. For example, the line "england,0B30rCerFhcqTVlN0Z1FEWTlRQlE" would specify the creation of an XML document with root node "england" with the content from https://drive.google.com/drive/folders/0B30rCerFhcqTVlN0Z1FEWTlRQlE
-Each entry should be on it's own line with no spaces. For an example, see countries.csv
+Each line of that file follows the format "root node name, drive folder id, file name". For example, the line "england,0B30rCerFhcqTVlN0Z1FEWTlRQlE,England" would specify the creation of an XML document with root node "england" with the content from https://drive.google.com/drive/folders/0B30rCerFhcqTVlN0Z1FEWTlRQlE Each entry should be on it's own line with no spaces. For an example, see countries.csv
 
-or
+<h2>Option 2<h2>
 
-Python CreateXML countryName folderID 
+Python CreateXML countryCode folderID countryName
 
-Creates an XML document with root name countryName and content from the drive folder with ID folderID
+Creates the file countryName.xml with root node countryCode and content from the drive folder with ID folderID
 
 *****
 
-High-level description:
+<h1>High-level description<h1>
 
 The file CreateXML.py is the only file that needs to be executed. First, a connection to google drive is made through the PyDrive library.
 This connection is dependent on the client_secrets.json file being present in the CD and the current browser user having access to the
@@ -41,13 +44,13 @@ folders specified in the arguments. For each specified country/folderID pair, al
 
 *****
 
-Google Doc Formatting:
+<h1>Google Doc Formatting<h1>
 
 The file name must be the file number which is where in the order that file should go followed by a space "-" space and then a file name for reference.
 The contents of the file should in the following order with each element separated by two blank lines: Navigation title, Navigation icon,
 Item title, Item description, Item title, Item description... Keep in mind that any bolds/underlines will be lost in the XML creation.
 
-Example document
+<h2>Example Document<h2>
 
 File name: 6 - Trust Us, It's SIM(ple): Find The Right Plan For you
 
