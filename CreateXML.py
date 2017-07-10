@@ -11,14 +11,13 @@ def prettify(elem):
     reparsed = minidom.parseString(rough_string)
     return reparsed.toprettyxml(indent="  ")
 
-def createXML(gDrive, country, folderId):
+def createXML(gDrive, country, folderId, outFile):
   try:
-
     #files stored in dictionary file_list with index as key and text as value
     drive_file_list = drive.ListFile({'q': "'"+folderId+"' in parents and trashed=false"}).GetList()
     file_list = {} 
     for file1 in drive_file_list:
-      print('title: %s, id: %s' % (file1['title'], file1['id']))
+      #print('title: %s, id: %s' % (file1['title'], file1['id']))
       file1.GetContentFile(file1['title'],'text/plain')
       file = open(file1['title'], 'r')
       content = file.read()
@@ -38,7 +37,6 @@ def createXML(gDrive, country, folderId):
           c = c.replace("\n \n","\n\n") #removes single space character from newline
           y = c.split("\n\n\n\n")
           i = 0
-          print(len(y))
           for item in y:
             item = item.strip()
             item = item.replace("\n\n\n","\n\n")
@@ -61,8 +59,8 @@ def createXML(gDrive, country, folderId):
         pass
       index+=1
     #write XML output  
-    output = open("xmlDocs/"+country+'.xml','w')
-    print(tostring(top))
+    output = open("xmlDocs/"+outFile+'.xml','w')
+    #print(tostring(top))
     output.write(prettify(top))
   except KeyError:
     print(country+" failed")
@@ -78,9 +76,9 @@ if len(sys.argv)==2: #Single argument, a document name with countryName,folderID
   countries = open(sys.argv[1], 'r').read().split("\n")
   for country in countries:
     country = country.split(",")
-    createXML(drive, country[0], country[1])
-else: #Two arguments, Country and FolderID specified in command line
-  createXML(drive, sys.argv[1], sys.argv[2])
+    createXML(drive, country[0], country[1], country[2])
+else: #Three arguments, Country ID, FolderID, Country name specified in command line
+  createXML(drive, sys.argv[1], sys.argv[2],sys.argv[3])
 
 
 
