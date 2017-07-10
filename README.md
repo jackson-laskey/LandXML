@@ -52,7 +52,7 @@ Item title, Item description, Item title, Item description... Keep in mind that 
 
 <h2>Example Document</h2>
 
-File name: 6 - Trust Us, It's SIM(ple): Find The Right Plan For you #This is the drive file name, not included in the document text
+File name: 6 - Trust Us, It's SIM(ple): Find The Right Plan For you #This is the drive file name, not included in the document text, and therefore not included in the xml file.
 
 Trust Us, It's SIM(ple): Find The Right Plan For you
 
